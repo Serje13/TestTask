@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.not-found {
+  text-align: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #baada5;
+}
+.message {
+  color: white;
+  font-size: 125px;
+  padding: 5%;
+}
+.go-to-main-button {
+  cursor: pointer;
+  background-color: #878181;
+  border-width: 0.5px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: white;
+  height: 100px;
+  width: 350px;
+  font-size: 40px;
+  border-radius: 20px;
+  outline: none;
+  opacity: 0.6;
+}
+.go-to-main-button:hover {
+  opacity: 0.9;
+}
+
+.is-hi-priority {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.task-name {
+  text-decoration: none;
+  color: white;
+}
+
+.is-hi-priority:hover {
+  text-decoration: none;
+  color: red;
+}
+.task-name:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.inline-editor {
+  border: none;
+  outline: none;
+  background-color: #878181;
+  color: white;
+  height: 30px;
+  width: 577px;
+  font-size: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.task-page {
+  width: 100%;
+  height: auto;
+  background-color: #baada5;
+  text-align: center;
+  padding: 10%;
+}
+.task-description {
+  padding: 50px;
+  background-color: #878181;
+  border-radius: 20px;
+  border-color: white;
+  border: outset;
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
